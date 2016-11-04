@@ -38,14 +38,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RecyclerAdapter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RecyclerAdapter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/delaroystudios/CardView_GoogleApp/RecyclerAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewHolder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/delaroystudios/CardView_GoogleApp/ViewHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding>
-                <element signature="e#1410#1773#0" expanded="true" />
-                <element signature="e#1772#1773#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#740#1075#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,28 +82,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardDemoActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CardDemoActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/delaroystudios/CardView_GoogleApp/CardDemoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+            <state relative-caret-position="548">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu_card_demo.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_card_demo.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
@@ -133,13 +131,13 @@
       </file>
       <file leaf-file-name="card_layout.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
+          <provider editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
+          <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
         </entry>
@@ -155,6 +153,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="ASClass" />
+      </list>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -1759,14 +1764,15 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/delaroystudios/carddemo/Network/GoogleAPI.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/delaroystudios/carddemo/Network/TwitterAPI.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_card_demo.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/delaroystudios/CardView_GoogleApp/RecyclerAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/delaroystudios/CardView_GoogleApp/CardDemoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/delaroystudios/CardView_GoogleApp/ViewHolder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/delaroystudios/CardView_GoogleApp/RecyclerAdapter.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="467" />
+    <option name="x" value="-35" />
+    <option name="y" value="515" />
     <option name="width" value="1280" />
     <option name="height" value="722" />
   </component>
@@ -2264,7 +2270,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="467" width="1280" height="722" extended-state="0" />
+    <frame x="-35" y="515" width="1280" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2384,28 +2390,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/delaroystudios/CardView_GoogleApp/RecyclerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="e#1410#1773#0" expanded="true" />
-            <element signature="e#1772#1773#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/delaroystudios/CardView_GoogleApp/Network/token.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -2424,11 +2408,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/delaroystudios/CardView_GoogleApp/CardDemoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        <state relative-caret-position="548">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card_layout.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/delaroystudios/CardView_GoogleApp/ViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#740#1075#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/delaroystudios/CardView_GoogleApp/RecyclerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
