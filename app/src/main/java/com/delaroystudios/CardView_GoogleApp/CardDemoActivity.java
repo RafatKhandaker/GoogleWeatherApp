@@ -6,7 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 /**
- * Rafat K
+ * Rafat Khandaker Maintaining Orthogonal standard of code
  * **/
 
 public class CardDemoActivity extends AppCompatActivity {
@@ -20,20 +20,22 @@ public class CardDemoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_demo);
 
-        initiateRecyclerView();
+        initiateRecyclerView(recyclerView, layoutManager, adapter);
 
     }
-     //---------------------------------Recycler View ----------------------------------------------
+     //---------------------------------Recycler View Method----------------------------------------
 
-     public void initiateRecyclerView (){
+     public void initiateRecyclerView
+             (RecyclerView x, RecyclerView.LayoutManager y, RecyclerView.Adapter z)
+     {
 
-         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+         x = (RecyclerView) findViewById(R.id.recycler_view);
 
-         layoutManager = new LinearLayoutManager(this);
-         recyclerView.setLayoutManager(layoutManager);
+         y = new LinearLayoutManager(this);
+         x.setLayoutManager(y);
 
-         adapter = new RecyclerAdapter();
-         recyclerView.setAdapter(adapter);
+         z = new RecyclerAdapter();
+         x.setAdapter(z);
 
      }
      //---------------------------------------------------------------------------------------------
