@@ -74,8 +74,8 @@
       <file leaf-file-name="CardDemoActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/delaroystudios/CardView_GoogleApp/CardDemoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="300">
+              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1765,8 +1765,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-82" />
-    <option name="y" value="488" />
+    <option name="x" value="-11" />
+    <option name="y" value="467" />
     <option name="width" value="1280" />
     <option name="height" value="722" />
   </component>
@@ -2264,7 +2264,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-82" y="488" width="1280" height="722" extended-state="0" />
+    <frame x="-11" y="467" width="1280" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2424,8 +2424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/delaroystudios/CardView_GoogleApp/CardDemoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="300">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -20,22 +20,19 @@ public class CardDemoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_demo);
 
-        initiateRecyclerView(recyclerView, layoutManager, adapter);
+        initiateRecyclerView();
 
     }
      //---------------------------------Recycler View Method----------------------------------------
 
-     public void initiateRecyclerView
-             (RecyclerView x, RecyclerView.LayoutManager y, RecyclerView.Adapter z)
-     {
+     public void initiateRecyclerView() {
 
-         x = (RecyclerView) findViewById(R.id.recycler_view);
+         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+         layoutManager = new LinearLayoutManager(this);
+         adapter = new RecyclerAdapter();
 
-         y = new LinearLayoutManager(this);
-         x.setLayoutManager(y);
-
-         z = new RecyclerAdapter();
-         x.setAdapter(z);
+         recyclerView.setLayoutManager(layoutManager);
+         recyclerView.setAdapter(adapter);
 
      }
      //---------------------------------------------------------------------------------------------
