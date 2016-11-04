@@ -5,4 +5,5 @@ package com.delaroystudios.carddemo.Network;
  */
 
 public class TwitterAPI {
+    public static String Developer_key = token.Twitter_Key;
 }

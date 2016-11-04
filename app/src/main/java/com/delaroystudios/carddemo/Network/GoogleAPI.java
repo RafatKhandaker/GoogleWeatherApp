@@ -5,5 +5,5 @@ package com.delaroystudios.carddemo.Network;
  */
 
 public class GoogleAPI {
-    public static String Developer_key = token.key;
+    public static String Developer_key = token.Google_Key;
 }

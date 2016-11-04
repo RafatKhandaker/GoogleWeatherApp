@@ -5,5 +5,6 @@ package com.delaroystudios.carddemo.Network;
  */
 
 public class token {
-    public static String key = "";
+    public static String Google_Key = "";
+    public static String Twitter_Key="";
 }
