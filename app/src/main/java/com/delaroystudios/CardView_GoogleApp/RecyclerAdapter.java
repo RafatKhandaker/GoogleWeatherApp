@@ -1,7 +1,7 @@
 package com.delaroystudios.CardView_GoogleApp;
 
 /**
- * Created by Shade on 5/9/2016.
+ * Rafat K 2016
  */
 
 import android.support.design.widget.Snackbar;
@@ -34,7 +34,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
     class ViewHolder extends RecyclerView.ViewHolder{
 
-        public int currentItem;
+//        public int currentItem;
         public ImageView itemImage;
         public TextView itemTitle;
         public TextView itemDetail;
