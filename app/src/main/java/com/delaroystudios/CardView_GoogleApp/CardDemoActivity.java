@@ -1,4 +1,4 @@
-package com.delaroystudios.carddemo;
+package com.delaroystudios.CardView_GoogleApp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

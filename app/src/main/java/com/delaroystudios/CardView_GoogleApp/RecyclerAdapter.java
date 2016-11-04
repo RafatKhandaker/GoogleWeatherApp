@@ -1,4 +1,4 @@
-package com.delaroystudios.carddemo;
+package com.delaroystudios.CardView_GoogleApp;
 
 /**
  * Created by Shade on 5/9/2016.

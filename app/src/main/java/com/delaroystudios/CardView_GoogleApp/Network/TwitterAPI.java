@@ -1,4 +1,4 @@
-package com.delaroystudios.carddemo.Network;
+package com.delaroystudios.CardView_GoogleApp.Network;
 
 /**
  * Created by RedDragon on 11/3/16.
