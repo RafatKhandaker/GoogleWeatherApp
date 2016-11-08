@@ -1,9 +1,14 @@
 package com.delaroystudios.CardView_GoogleApp;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+
+import com.delaroystudios.CardView_GoogleApp.Fragment.FragmentActivity;
+import com.delaroystudios.CardView_GoogleApp.Recycler.RecyclerAdapter;
 
 /**
  * Rafat Khandaker Maintaining Orthogonal standard of code
@@ -36,4 +41,5 @@ public class CardDemoActivity extends AppCompatActivity {
 
      }
      //---------------------------------------------------------------------------------------------
+
 }

@@ -8,34 +8,25 @@
         optimize="true"
         revision="24.0.0"
         sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_fe32f4c03e552d25da4e485d3a2e0d8bcb81fec2/classes.dex" />
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_fe32f4c03e552d25da4e485d3a2e0d8bcb81fec2/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_5a61df4d8893513b69b42afd95e0fc7ac7ed7b75/classes.dex" />
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_1f6e85f142aaccc297eef0d42193da1ffee1afad/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.0.0_b010238b145dba084bbec6cc0cb3beccbcd944e8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_775f087536ceaca3976a42d80cf5274824e3f368/classes.dex" />
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_63d387e43271b62a7dc26d9a2d3b5bb4728e883a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -44,7 +35,7 @@
         optimize="true"
         revision="24.0.0"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_1cd82a541b37690c9c5a1515226a154c464ed351/classes.dex" />
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_1cd82a541b37690c9c5a1515226a154c464ed351/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -71,7 +62,25 @@
         optimize="true"
         revision="24.0.0"
         sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_f861c58e07f34654fa5973c1d530b51af18cc0e5/classes.dex" />
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_f861c58e07f34654fa5973c1d530b51af18cc0e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="a909b7d86fcdba02d92cf902bc23fba61dad048c">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_061413e1bd1d3b52eb26d054aa3847cf007d695b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_fa848d0d97c49da9a63e6202ca3de6970fe58abb/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -107,7 +116,16 @@
         optimize="true"
         revision="24.0.0"
         sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_a5c329a62929515266a69ab01c5ae12502a580a4/classes.dex" />
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_a5c329a62929515266a69ab01c5ae12502a580a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_937bc681d1c8d28b923fd278223b747c9bcf902e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,6 +138,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_41a8ec6abe4a0bd0330101be785618474f4c864e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -129,30 +156,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_c0af9f17f114450f9c9eac34fe251126dfaddb4e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="69fa83c8e7e267289a4dfeba81718a52272c0111">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_34287265d8d13b4ba1578b9c535441c5fbd2107e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_b355ea9ecda7a5e0bcf2249619ee3591c9685fa1/classes.dex" />
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.0.0_e870c5ccfcbb7763d907d43b2ef7eb8cc3461f76/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -165,21 +174,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_d1e73ec2caa791f170fde492cc8d17f83013c541/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_8c894cde8f966f96e4f3d31d8f3ed0d664f06d30/classes.dex" />
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_cfb3ee8d30653b561c31e957f946bca0de153d4e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -188,16 +188,7 @@
         optimize="true"
         revision="24.0.0"
         sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_f2ab8afcd20bb4dc4d291925825a08ee5bafdc8d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_d72756009900123a5ffe79a5b269025d65cb22bc/classes.dex" />
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_f2ab8afcd20bb4dc4d291925825a08ee5bafdc8d/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -210,12 +201,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="80670ede6bf2a65eed4f7eb2514df851e49ee6e4">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/GoogleWeatherApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6c281e4b3e1dacbb903786e3ca484989c4c20a1b/classes.dex" />
+        sha1="1f371b7b3e7207c8ffb5ecbd8a3a4298e519762d">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_61e7dd017e99faf4255c7552fb2ba8e9fc57df80/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_98221042519f690c9dfe644c149368125fc3f75c/classes.dex" />
     </item>
     <item
         is-multidex="true"
