@@ -10,10 +10,12 @@ import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class YouTubeViewHolder extends RecyclerView.ViewHolder implements GoogleNowCard {
 
     private YouTubePlayer.OnInitializedListener onInitializedListener;
-
 
     private final View view;
     private YouTubePlayerView youTubePlayerView;
@@ -33,9 +35,13 @@ public class YouTubeViewHolder extends RecyclerView.ViewHolder implements Google
 
     public void bind(GoogleNowCard nowCard) {
 
-        youTubePlayerView = (YouTubePlayerView) view.findViewById(R.id.youtube_player);
-        onInitializedListener = new YouTubePlayer.OnInitializedListener() {
+//        List<String> playlist = Arrays.asList(
+//                Arrays.asList("KT7W9oJP6BI", "KXdQ8ZCzqkY", "BUzyJANBjrM")
+//        );
 
+        youTubePlayerView = (YouTubePlayerView) view.findViewById(R.id.youtube_player);
+
+        onInitializedListener = new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
                 youTubePlayer.loadVideo("KT7W9oJP6BI");
@@ -43,7 +49,6 @@ public class YouTubeViewHolder extends RecyclerView.ViewHolder implements Google
 
             @Override
             public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
-
             }
         };
 

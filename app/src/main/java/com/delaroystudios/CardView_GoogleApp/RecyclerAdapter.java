@@ -12,6 +12,9 @@ public class RecyclerAdapter extends RecyclerView.Adapter {
 
     private List<YouTubeCard> googleList = Arrays.asList(
 
+            new YouTubeCard(),
+            new YouTubeCard(),
+            new YouTubeCard(),
             new YouTubeCard()
     );
 

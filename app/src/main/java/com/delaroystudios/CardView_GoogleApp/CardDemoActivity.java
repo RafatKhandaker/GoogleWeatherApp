@@ -5,7 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-public class CardDemoActivity extends AppCompatActivity {
+import com.google.android.youtube.player.YouTubeBaseActivity;
+
+public class CardDemoActivity extends YouTubeBaseActivity {
 
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
@@ -19,7 +21,6 @@ public class CardDemoActivity extends AppCompatActivity {
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         layoutManager = new LinearLayoutManager(this);
         adapter = new RecyclerAdapter();
-
 
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
