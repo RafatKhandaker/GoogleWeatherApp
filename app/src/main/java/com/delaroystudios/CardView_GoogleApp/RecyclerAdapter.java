@@ -1,55 +1,45 @@
 package com.delaroystudios.CardView_GoogleApp;
 
-/**
- * Rafat K
- */
-
-import android.support.design.widget.Snackbar;
 import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
 
-public class RecyclerAdapter extends RecyclerView.Adapter<ViewHolder> {
+import java.util.Arrays;
+import java.util.List;
 
-    private String[] titles = {
-            "Card View 1",
-            "Card View 2",
-            "Card View 3",
-           };
+public class RecyclerAdapter extends RecyclerView.Adapter {
 
-    private String[] details = {
-            "Notification Area",
-            "Google Weather API",
-            "Twitter or Spotify?"
-            };
+    private final int YOUTUBE = 0;
 
-    private int[] images = {
-            R.drawable.android_image_1,
-            R.drawable.android_image_2,
-            R.drawable.android_image_3,
-         };
+    private List<YouTubeCard> googleList = Arrays.asList(
+
+            new YouTubeCard()
+    );
 
 
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
-        View v = LayoutInflater.from(viewGroup.getContext())
-                .inflate(R.layout.card_layout, viewGroup, false);
-        ViewHolder viewHolder = new ViewHolder(v);
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int i) {
+        RecyclerView.ViewHolder viewHolder = null;
+        switch (i) {
+            case YOUTUBE:
+                viewHolder = new YouTubeViewHolder(parent);
+                break;
+        }
         return viewHolder;
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder viewHolder, int i) {
-        viewHolder.itemTitle.setText(titles[i]);
-        viewHolder.itemDetail.setText(details[i]);
-        viewHolder.itemImage.setImageResource(images[i]);
+    public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
+        switch (holder.getItemViewType()) {
+            case YOUTUBE:
+                YouTubeViewHolder youTubeViewHolder = (YouTubeViewHolder) holder;
+                GoogleNowCard nowCard = googleList.get(position);
+                youTubeViewHolder.bind(nowCard);
+        }
     }
 
     @Override
     public int getItemCount() {
-        return titles.length;
+        return googleList.size();
     }
+
 }
