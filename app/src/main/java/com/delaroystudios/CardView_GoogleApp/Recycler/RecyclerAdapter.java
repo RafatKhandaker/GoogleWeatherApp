@@ -14,15 +14,15 @@ import com.delaroystudios.CardView_GoogleApp.R;
 public class RecyclerAdapter extends RecyclerView.Adapter<ViewHolder> {
 
     private String[] titles = {
-            "Card View 1",
-            "Card View 2",
-            "Card View 3",
+            "Google Calander API",
+            "Sports Update API",
+            "New York Times API",
            };
 
     private String[] details = {
-            "Google Calander API",
-            "Sports Update API",
-            "New York Times API"
+            "Description",
+            "Description",
+            "Description"
             };
 
     private int[] images = {

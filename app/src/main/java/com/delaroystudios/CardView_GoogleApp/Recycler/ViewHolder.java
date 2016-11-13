@@ -31,7 +31,7 @@ public class ViewHolder extends RecyclerView.ViewHolder{
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                positionClicked = getAdapterPosition();
+                positionClicked = getAdapterPosition()+1;
 
                 Snackbar.make(v, "Click detected on item " + positionClicked,
                         Snackbar.LENGTH_LONG)

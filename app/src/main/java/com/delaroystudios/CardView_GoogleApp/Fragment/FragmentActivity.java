@@ -21,13 +21,13 @@ public class FragmentActivity extends AppCompatActivity{
         setContentView(R.layout.fragment_container);
 
         switch(checkLaunchValue){
-            case 0:
+            case 1:
                 launchGoogleCalanderFragment();
                 break;
-            case 1:
+            case 2:
                 launchSportsFragment();
                 break;
-            case 2:
+            case 3:
                 launchNewYorkTimesFragment();
                 break;
             default:
