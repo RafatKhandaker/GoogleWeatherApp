@@ -12,17 +12,18 @@ import retrofit2.http.GET;
  */
 
 
-// I Hi-Jacked this code from RUSILI for testing - RK
-
 public interface NYTimesService {
 
     String topStoriesKey = "api-key=bbf0fecd74a24c42b50c9c6683575da7";
     String searchKey = "api-key=dba0adf3316748b6824798db63e90243";
+    public static String qParameter = "";
 
     @GET("/svc/topstories/v1/home.json?" + topStoriesKey)
     Call<NYTopStoriesJSON> getTopStoriesJsonCall();
 
-    @GET("/svc/search/v2/articlesearch.json?" + searchKey)
+    @GET("/svc/search/v2/articlesearch.json?" +searchKey + "q=" +qParameter)
     Call<NYTimesSearchJSON> getSearchJsonCall();
+
+    // querry for search key use
 
 }
