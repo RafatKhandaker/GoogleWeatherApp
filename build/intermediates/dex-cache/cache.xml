@@ -111,6 +111,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_fa2fb168986139b7540ba5b2f17e8636d5bbf006/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
         jumboMode="true"
         optimize="true"
