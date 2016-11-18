@@ -1,6 +1,7 @@
 package com.delaroystudios.CardView_GoogleApp;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
@@ -31,44 +32,60 @@ public class CardDemoActivity extends YouTubeBaseActivity {
         setContentView(R.layout.activity_card_demo);
 
         initiateRecyclerView();
-
+        serviceCallNYTimes();
+        handleRecyclerView();
     }
      //---------------------------------Recycler View Method----------------------------------------
 
-     public void initiateRecyclerView() {
+     private void initiateRecyclerView() {
 
          recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
          layoutManager = new LinearLayoutManager(this);
          adapter = new RecyclerAdapter();
 
-         recyclerView.setLayoutManager(layoutManager);
-         recyclerView.setAdapter(adapter);
-
-     }
-     //---------------------------------------------------------------------------------------------
-
-     public void topStoriesAPI() {
-         Retrofit retrofit = new Retrofit.Builder()
-                 .baseUrl("https://api.nytimes.com")
-                 .addConverterFactory(GsonConverterFactory.create())
-                 .build();
-         NYTimesService nyTimesService = retrofit.create(NYTimesService.class);
-         Call<NYTopStoriesJSON> getRecentMedia = nyTimesService.getTopStoriesJsonCall();
-         getRecentMedia.enqueue(new Callback<NYTopStoriesJSON>() {
-             @Override
-             public void onResponse(Call<NYTopStoriesJSON> call, Response<NYTopStoriesJSON> response) {
-                 if (response.isSuccessful()) {
-                     NYTopStoriesJSON nyTopStories = response.body();
-//                     .add(NYTTopStories);
-                 }
-             }
-
-             @Override
-             public void onFailure(Call<NYTopStoriesJSON> call, Throwable t) {
+                 recyclerView.setLayoutManager(layoutManager);
+                 recyclerView.setAdapter(adapter);
 
              }
+    //-------------------------------RETROFIT-------------------------------------------------------
 
-         });
+    public void getTopStoriesClient() {
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("https://api.nytimes.com/svc/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+        NYTimesService nyTimesService = retrofit.create(NYTimesService.class);
+        Call<NYTopStoriesJSON> getRecentMedia = nyTimesService.getTopStoriesJsonCall();
+        getRecentMedia.enqueue(new Callback<NYTopStoriesJSON>() {
+            @Override
+            public void onResponse(Call<NYTopStoriesJSON> call, Response<NYTopStoriesJSON> response) {
+                if (response.isSuccessful()) {
+                    NYTopStoriesJSON NYTTopStories = response.body();
+//                    .add(NYTTopStories);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<NYTopStoriesJSON> call, Throwable t) {
+            }
+        });
+    }
+    //-----------------------------Handle Service----------------------------------------------------------------
+     private Boolean serviceCallNYTimes(){
+         return new Handler().postDelayed(new Runnable() {
+             @Override
+             public void run() {
+                 getTopStoriesClient();}
+             }, 3000);
      }
+     private Boolean handleRecyclerView(){
+         return new Handler().postDelayed(new Runnable() {
+             @Override
+             public void run() {
+                 initiateRecyclerView();
+             }
+         }, 3000);
+     }
+
 
 }

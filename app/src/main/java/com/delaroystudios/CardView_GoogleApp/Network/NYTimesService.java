@@ -24,6 +24,6 @@ public interface NYTimesService {
     @GET("/svc/search/v2/articlesearch.json?" +searchKey + "q=" +qParameter)
     Call<NYTimesSearchJSON> getSearchJsonCall();
 
-    // querry for search key use
+    // querry for search key use parameter q
 
 }

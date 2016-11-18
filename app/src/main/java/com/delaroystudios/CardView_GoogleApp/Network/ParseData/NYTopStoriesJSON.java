@@ -8,16 +8,12 @@ import java.util.List;
  */
 
 public class NYTopStoriesJSON {
-    String status;
-    String copyright;
     String section;
     String last_updated;
     int num_results;
     List<results> results = new ArrayList<>();
 
-    public String getStatus() {
-        return this.status;
-    }
+
 
     public List<results> getResults() {
         return this.results;
@@ -81,5 +77,6 @@ public class NYTopStoriesJSON {
                 return this.url;
             }
         }
+
     }
 }

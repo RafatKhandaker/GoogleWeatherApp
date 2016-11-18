@@ -46,7 +46,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<ViewHolder> {
         viewHolder.itemTitle.setText(titles[i]);
         viewHolder.itemDetail.setText(details[i]);
         viewHolder.itemImage.setImageResource(images[i]);
-    }
+}
 
     @Override
     public int getItemCount() {
