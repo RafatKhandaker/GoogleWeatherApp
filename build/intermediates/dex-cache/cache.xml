@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_fe32f4c03e552d25da4e485d3a2e0d8bcb81fec2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -21,30 +12,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jar="/Users/RedDragon/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.0/support-annotations-24.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_1f6e85f142aaccc297eef0d42193da1ffee1afad/classes.dex" />
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.0_1652a92509a26596ad9e428b0838e13de1199dff/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_63d387e43271b62a7dc26d9a2d3b5bb4728e883a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_7be64b29ce235653ddf908f91e073340f1a3c375/classes.dex" />
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.4.0_b60790ac25ebf30a113f973296fb924155cbbf6e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -54,33 +36,6 @@
         revision="24.0.0"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
         <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_1cd82a541b37690c9c5a1515226a154c464ed351/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_59bf6e453ab14a73e09ce50bb76545f441a5e60e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="fce9dcc9581d8fd289cc17d43b5c5ff8160584b1">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4450e4ff9b73aaaad1192861a9b867af1da3c4d6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="c46a0960b4dda1c49428e7f6b4345d8074812503">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_003fa281cb7ab99f2f9b65cdad98e9c576e8a8f9/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,15 +57,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_fa848d0d97c49da9a63e6202ca3de6970fe58abb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -120,12 +66,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_f3c0c3619e4cbcd7fc295cd1151211666dd5ce09/classes.dex" />
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_62f73414b72e65c1570da28745d82eb09590b1c7/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -147,15 +93,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_a5c329a62929515266a69ab01c5ae12502a580a4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/libs/YouTubeAndroidPlayerApi.jar"
         jumboMode="true"
         optimize="true"
@@ -171,15 +108,6 @@
         revision="24.0.0"
         sha1="f2458e8bdda55f51f8c0b83ba2a5fad49a8c377f">
         <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e9e7de3b970619b56764f1fd92cdb53399b6ed25/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_937bc681d1c8d28b923fd278223b747c9bcf902e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -255,15 +183,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_f2ab8afcd20bb4dc4d291925825a08ee5bafdc8d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -291,15 +210,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_a1e426690c75ae26c82601444ca5e437ae83dad2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -315,6 +225,141 @@
         revision="24.0.0"
         sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
         <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_5cf9195999779539c5f42da5be17dbb94a14e2eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_98221042519f690c9dfe644c149368125fc3f75c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_379dcece84ea8eef33774a10e6dceac1919f80a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_fe32f4c03e552d25da4e485d3a2e0d8bcb81fec2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_1f6e85f142aaccc297eef0d42193da1ffee1afad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_63d387e43271b62a7dc26d9a2d3b5bb4728e883a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_7be64b29ce235653ddf908f91e073340f1a3c375/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_59bf6e453ab14a73e09ce50bb76545f441a5e60e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fce9dcc9581d8fd289cc17d43b5c5ff8160584b1">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4450e4ff9b73aaaad1192861a9b867af1da3c4d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c46a0960b4dda1c49428e7f6b4345d8074812503">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_003fa281cb7ab99f2f9b65cdad98e9c576e8a8f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_fa848d0d97c49da9a63e6202ca3de6970fe58abb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_f3c0c3619e4cbcd7fc295cd1151211666dd5ce09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_a5c329a62929515266a69ab01c5ae12502a580a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_937bc681d1c8d28b923fd278223b747c9bcf902e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_f2ab8afcd20bb4dc4d291925825a08ee5bafdc8d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_a1e426690c75ae26c82601444ca5e437ae83dad2/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -336,30 +381,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_98221042519f690c9dfe644c149368125fc3f75c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
         <dex dex="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_71cde6f9922851be88128f2fc09b351f4de3669d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/Users/RedDragon/Desktop/localAppTest/CardDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_379dcece84ea8eef33774a10e6dceac1919f80a1/classes.dex" />
     </item>
 
 </items>

@@ -1,10 +1,13 @@
 package com.delaroystudios.CardView_GoogleApp;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.delaroystudios.CardView_GoogleApp.Fragment.FragmentActivity;
 import com.delaroystudios.CardView_GoogleApp.Network.NYTimesService;
 import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTopStoriesPOJO;
 import com.delaroystudios.CardView_GoogleApp.Recycler.RecyclerAdapter;
@@ -23,6 +26,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class CardDemoActivity extends YouTubeBaseActivity {
 
     public static final String BASE_URL = "https://api.nytimes.com/svc/";
+    public static int positionClicked;
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
     private RecyclerView.Adapter adapter;
@@ -88,6 +92,17 @@ public class CardDemoActivity extends YouTubeBaseActivity {
              }
          }, 3000);
      }
+    // -------------------------- ACTIVITY METHODS -------------------------------------------------
 
+    public static void launchFragmentActivity(Context context) {
+        Intent intent = new Intent(context, FragmentActivity.class);
+        context.startActivity(intent);
+    }
+
+    //------------------------------ GET VALUE METHODS ---------------------------------------------
+
+    public static Integer getPositionClicked(){
+        return positionClicked;
+    }
 
 }

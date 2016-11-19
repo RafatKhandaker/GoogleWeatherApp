@@ -3,8 +3,9 @@ package com.delaroystudios.CardView_GoogleApp.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+
+import com.delaroystudios.CardView_GoogleApp.CardDemoActivity;
 import com.delaroystudios.CardView_GoogleApp.R;
-import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder;
 
 
 /**
@@ -13,7 +14,7 @@ import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder;
 
 public class FragmentActivity extends AppCompatActivity{
 
-    private int checkLaunchValue = ViewHolder.getPositionClicked();
+    private int checkLaunchValue = CardDemoActivity.getPositionClicked();
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
