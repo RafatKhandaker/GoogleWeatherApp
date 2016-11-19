@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">CardDemo</string>
-
+    <string name="app_name">Google Now</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>
