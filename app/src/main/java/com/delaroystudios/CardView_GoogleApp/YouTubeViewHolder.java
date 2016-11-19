@@ -5,27 +5,28 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
+import java.util.ArrayList;
 
-import java.util.Arrays;
-import java.util.List;
 
 public class YouTubeViewHolder extends RecyclerView.ViewHolder implements GoogleNowCard {
 
+    private static final String API_KEY = "AIzaSyAo4GrP1Cs1Q9TwWxMfNMj9DFnXkWh-5ps";
     private YouTubePlayer.OnInitializedListener onInitializedListener;
 
     private final View view;
     private YouTubePlayerView youTubePlayerView;
     private Button button;
+    private Button button2;
 
     public YouTubeViewHolder(ViewGroup parent) {
         super(inflate(parent));
         view = itemView;
         youTubePlayerView = (YouTubePlayerView) view.findViewById(R.id.youtube_player);
-        button = (Button) view.findViewById(R.id.play_button);
+        button = (Button) view.findViewById(R.id.play_kanye);
+        button2 = (Button) view.findViewById(R.id.play_drake);
     }
 
     private static View inflate(ViewGroup parent) {
@@ -33,18 +34,43 @@ public class YouTubeViewHolder extends RecyclerView.ViewHolder implements Google
         return layoutInflater.inflate(R.layout.youtube_activity, parent, false);
     }
 
-    public void bind(GoogleNowCard nowCard) {
+    public void bind() {
 
-//        List<String> playlist = Arrays.asList(
-//                Arrays.asList("KT7W9oJP6BI", "KXdQ8ZCzqkY", "BUzyJANBjrM")
-//        );
+        final ArrayList<String> playlist_kanye = new ArrayList<>();
+        playlist_kanye.add("m4w08DXtXn8");
+        playlist_kanye.add("KXdQ8ZCzqkY");
+        playlist_kanye.add("BUzyJANBjrM");
+        playlist_kanye.add("p7FCgw_GlWc");
+        playlist_kanye.add("3JUE6bs8neM");
+        playlist_kanye.add("mzFFUADjA2k");
+        playlist_kanye.add("PSpr4Mpo514");
+        playlist_kanye.add("Dg-EYqQYqxE");
+        playlist_kanye.add("Wmp-5cuOrIo");
+        playlist_kanye.add("BDNxEvo_hMU");
+        playlist_kanye.add("SMQP7QPN0bk");
+        playlist_kanye.add("xGvm6btP1A");
+
+        playlist_kanye.add("BoEKWtgJQAU");
+        playlist_kanye.add("Bm5iA4Zupek");
+        playlist_kanye.add("8kyWDhB_QeI");
+        playlist_kanye.add("PsO6ZnUZI0g");
+        playlist_kanye.add("L53gjP-TtGE");
+        playlist_kanye.add("Dqgr0wNyPo");
+        playlist_kanye.add("q604eed4ad0");
+
+        final ArrayList<String> playlist_drake = new ArrayList<>();
+
+        playlist_drake.add("RubBzkZzpUA");
+        playlist_drake.add("uxpDa-c-4Mc");
+        playlist_drake.add("LnBvuzjpr4");
 
         youTubePlayerView = (YouTubePlayerView) view.findViewById(R.id.youtube_player);
 
         onInitializedListener = new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-                youTubePlayer.loadVideo("KT7W9oJP6BI");
+                youTubePlayer.loadVideos(playlist_kanye);
+                youTubePlayer.loadVideos(playlist_drake);
             }
 
             @Override
@@ -52,11 +78,21 @@ public class YouTubeViewHolder extends RecyclerView.ViewHolder implements Google
             }
         };
 
-        button = (Button) view.findViewById(R.id.play_button);
+        button = (Button) view.findViewById(R.id.play_kanye);
+        button2 = (Button) view.findViewById(R.id.play_drake);
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                youTubePlayerView.initialize("AIzaSyAo4GrP1Cs1Q9TwWxMfNMj9DFnXkWh-5ps", onInitializedListener);
+                youTubePlayerView.initialize(API_KEY, onInitializedListener);
+            }
+        });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                youTubePlayerView.initialize(API_KEY, onInitializedListener);
+
             }
         });
     }

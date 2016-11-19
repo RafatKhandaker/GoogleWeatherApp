@@ -1,10 +1,8 @@
 package com.delaroystudios.CardView_GoogleApp;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-
 import com.google.android.youtube.player.YouTubeBaseActivity;
 
 public class CardDemoActivity extends YouTubeBaseActivity {
@@ -24,7 +22,6 @@ public class CardDemoActivity extends YouTubeBaseActivity {
 
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
-
 
     }
 }

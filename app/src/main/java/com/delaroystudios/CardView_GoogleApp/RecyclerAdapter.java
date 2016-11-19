@@ -2,7 +2,6 @@ package com.delaroystudios.CardView_GoogleApp;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
-
 import java.util.Arrays;
 import java.util.List;
 
@@ -11,13 +10,14 @@ public class RecyclerAdapter extends RecyclerView.Adapter {
     private final int YOUTUBE = 0;
 
     private List<YouTubeCard> googleList = Arrays.asList(
-
+            new YouTubeCard(),
+            new YouTubeCard(),
+            new YouTubeCard(),
             new YouTubeCard(),
             new YouTubeCard(),
             new YouTubeCard(),
             new YouTubeCard()
     );
-
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int i) {
@@ -35,8 +35,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter {
         switch (holder.getItemViewType()) {
             case YOUTUBE:
                 YouTubeViewHolder youTubeViewHolder = (YouTubeViewHolder) holder;
-                GoogleNowCard nowCard = googleList.get(position);
-                youTubeViewHolder.bind(nowCard);
+                youTubeViewHolder.bind();
         }
     }
 
