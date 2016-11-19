@@ -8,7 +8,25 @@
         optimize="true"
         revision="24.0.0"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_2c2399694107d3c5c644d11cd341fb334b206ca9/classes.dex" />
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_2c2399694107d3c5c644d11cd341fb334b206ca9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e8de9119ae52eff8cc7d2a229ac2b2818f39bd62/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.0.0_2b67e7f30330d13d1a65b3710971249ee8125eb3/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -17,16 +35,16 @@
         optimize="true"
         revision="24.0.0"
         sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_bf809978fd00d260d504925e5171f2fc65516386/classes.dex" />
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_bf809978fd00d260d504925e5171f2fc65516386/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="0f48dcb48124e46a173218d082c3c616ae1c4e28">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6b6c7693ef2f4fcd070805abc61baf43afd7df95/classes.dex" />
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_bf3bb49c6ea94a8038d4bf337e89312f97e5d460/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -35,142 +53,52 @@
         optimize="true"
         revision="24.0.0"
         sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_da1190f070119493d43f81693a6f2c585dd254a6/classes.dex" />
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_da1190f070119493d43f81693a6f2c585dd254a6/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b325a0a0e5047b109dadb30d0138d98c19deb46b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.0.0_651b3afa61d2c8683cf5242f1e1ac1dcdf066f06/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5b00c9b36f6c3b4624a9c2146fca7f1e0e8ee367/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_12de874f65cc76cd6f4375f7a250c1e9a41a328b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/libs/YouTubeAndroidPlayerApi.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_2333e7e67e49a6ebe522f8d3a04c8d63ee5bc696/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_bf72453a4d3ba33b835564e6db8483b0174693f8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_6b7df5ad440cff23e3c5c3ba069d2e08ed2b0d1d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_9934c1d731ce579714ef7e83b752f56aeeff23ce/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_9300e398a86b145ecca03fc9213c282c75c5e10b/classes.dex" />
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_177bb299d3f2faf3ba77bcfba64975e315643cef/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_3fbb9b850f732f2e1565f38f80f242394de20d97/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_5af8886cec3e147825b38416adff6a4449797d65/classes.dex" />
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_214095152d41d609c0fb19e56bf744105f6cc6bd/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_3c9831aa4fdf5de689b55892a5fc9b26cc50c1e4/classes.dex" />
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_09eb0a43a477bbe282b6289c6ff154a2409c61e8/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_ba64c9385edd182a988cde27c979a421c05eb698/classes.dex" />
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_e570f06336748b361583ea0040bcd3c53640cb06/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="008b8aec27d748954721d1d45895b8e0078e2c90">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_009bcdf1e96f1279dbad3a613f86ad017cb4012b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.0_6912feba6b0674c37dc2662b648bb7a13cea9c31/classes.dex" />
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5b6a57ee52048560f2337cda928e04e6d7138dc9/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -179,7 +107,16 @@
         optimize="true"
         revision="24.0.0"
         sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_dbd096454fd1f3da5411933b8574437cb8795526/classes.dex" />
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_dbd096454fd1f3da5411933b8574437cb8795526/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_5b82110446e9e36033b1a6ff9f283be8646a74c4/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -188,16 +125,7 @@
         optimize="true"
         revision="24.0.0"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_7badf3ede7c4a0b016f4418290f1fc15ef71c85b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_a2726825cefcf6db519cc54cb085690192e13c71/classes.dex" />
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_7badf3ede7c4a0b016f4418290f1fc15ef71c85b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -206,34 +134,106 @@
         optimize="true"
         revision="24.0.0"
         sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_4a66c16112fc4bf4053bd7b594146a2e3cc2c515/classes.dex" />
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_4a66c16112fc4bf4053bd7b594146a2e3cc2c515/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_b70844a46034e569f9784752b998c0334904e013/classes.dex" />
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_4db17cb4c00ae9b4fedf5f320897ac322769b123/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_508deb39082a55264b04baf86ac4b6657fd10c31/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/Josiel/Desktop/accesscode/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_a3529b7e60c8d1b436f477af9f2d7ae864d23634/classes.dex" />
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_871cf1458f64b8b655dd2529294af0b8ce03d32d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_b6bcb55322caafbbd2ed26a91818d915ca5c9481/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_8b0e8ae14655d7f4d23dc82854e725e8447e02e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2c210d18c915b9b5e12799169c3acc0cce4ed8eb">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4c117e4cff8cd180a1f2be72d0de25982ff6b8c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_012237537c376d90015e70ee48d1d9db4a46eaba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d36650a3cfba577e05705c1e70229785a7bd032a">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_368871862d1d38663feb4771f29d5db5264d203b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_5abdd7b2cdbf6e5770608ca41d96d9841ab371f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_fb7c42bfbddd08d0a24de16fe5c83d0c9b3d9c83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.0_0a6cff6019ff152e170bfb1f2f94fa0942e41c5b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/Josiel/Desktop/accesscode/GoogleNowYT/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_57306b954952dfde71e310215a1f8fc6cff38216/classes.dex" />
     </item>
 
 </items>
