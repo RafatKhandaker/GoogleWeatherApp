@@ -1,7 +1,7 @@
 package com.delaroystudios.CardView_GoogleApp.Network;
 
-import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTimesSearchJSON;
-import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTopStoriesJSON;
+import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTimesSearchPOJO;
+import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTopStoriesPOJO;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -19,10 +19,10 @@ public interface NYTimesService {
     public static String qParameter = "";
 
     @GET("/svc/topstories/v1/home.json?" + topStoriesKey)
-    Call<NYTopStoriesJSON> getTopStoriesJsonCall();
+    Call<NYTopStoriesPOJO> getTopStoriesJsonCall();
 
     @GET("/svc/search/v2/articlesearch.json?" +searchKey + "q=" +qParameter)
-    Call<NYTimesSearchJSON> getSearchJsonCall();
+    Call<NYTimesSearchPOJO> getSearchJsonCall();
 
     // querry for search key use parameter q
 

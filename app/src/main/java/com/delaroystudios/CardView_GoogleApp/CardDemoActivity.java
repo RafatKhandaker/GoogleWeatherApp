@@ -6,7 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.delaroystudios.CardView_GoogleApp.Network.NYTimesService;
-import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTopStoriesJSON;
+import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTopStoriesPOJO;
 import com.delaroystudios.CardView_GoogleApp.Recycler.RecyclerAdapter;
 import com.google.android.youtube.player.YouTubeBaseActivity;
 
@@ -22,9 +22,11 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class CardDemoActivity extends YouTubeBaseActivity {
 
+    public static final String BASE_URL = "https://api.nytimes.com/svc/";
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
     private RecyclerView.Adapter adapter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,22 +53,22 @@ public class CardDemoActivity extends YouTubeBaseActivity {
 
     public void getTopStoriesClient() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://api.nytimes.com/svc/")
+                .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         NYTimesService nyTimesService = retrofit.create(NYTimesService.class);
-        Call<NYTopStoriesJSON> getRecentMedia = nyTimesService.getTopStoriesJsonCall();
-        getRecentMedia.enqueue(new Callback<NYTopStoriesJSON>() {
+        Call<NYTopStoriesPOJO> getRecentMedia = nyTimesService.getTopStoriesJsonCall();
+        getRecentMedia.enqueue(new Callback<NYTopStoriesPOJO>() {
             @Override
-            public void onResponse(Call<NYTopStoriesJSON> call, Response<NYTopStoriesJSON> response) {
+            public void onResponse(Call<NYTopStoriesPOJO> call, Response<NYTopStoriesPOJO> response) {
                 if (response.isSuccessful()) {
-                    NYTopStoriesJSON NYTTopStories = response.body();
+                    NYTopStoriesPOJO NYTTopStories = response.body();
 //                    .add(NYTTopStories);
                 }
             }
 
             @Override
-            public void onFailure(Call<NYTopStoriesJSON> call, Throwable t) {
+            public void onFailure(Call<NYTopStoriesPOJO> call, Throwable t) {
             }
         });
     }
