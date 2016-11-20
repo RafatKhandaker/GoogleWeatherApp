@@ -2,15 +2,12 @@ package com.delaroystudios.CardView_GoogleApp.Network;
 
 import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTimesSearchPOJO;
 import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTopStoriesPOJO;
-
 import retrofit2.Call;
 import retrofit2.http.GET;
-
 
 /**
  * Created by RedDragon on 11/13/16.
  */
-
 
 public interface NYTimesService {
 

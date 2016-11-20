@@ -6,12 +6,13 @@ package com.delaroystudios.CardView_GoogleApp.Recycler;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+
+import com.delaroystudios.CardView_GoogleApp.CardDemoActivity;
 import com.delaroystudios.CardView_GoogleApp.R;
 import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder.GoogleViewHolder;
 import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder.NYTimesViewHolder;
@@ -19,7 +20,7 @@ import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder.YoutubeViewHold
 import com.squareup.picasso.Picasso;
 
 
-public class RecyclerAdapter extends RecyclerView.Adapter<ViewHolder> {
+public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
 
     private String[] titles = {
@@ -42,45 +43,34 @@ public class RecyclerAdapter extends RecyclerView.Adapter<ViewHolder> {
 
 
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         View v;
-        ViewHolder viewHolder;
+        RecyclerView.ViewHolder viewHolder = null;
+
         switch (i) {
             case 0:
-
                 v = LayoutInflater.from(viewGroup.getContext())
                         .inflate(R.layout.google_card_layout, viewGroup, false);
                 viewHolder = new GoogleViewHolder(v);
-                return viewHolder;
-
-
+                break;
             case 1:
-
                 v = LayoutInflater.from(viewGroup.getContext())
                         .inflate(R.layout.youtube_card_layout, viewGroup, false);
                 viewHolder = new YoutubeViewHolder(v);
-                return viewHolder;
-
-
+                break;
             case 2:
-
                 v = LayoutInflater.from(viewGroup.getContext())
                         .inflate(R.layout.ny_times_card_layout, viewGroup, false);
                 viewHolder = new NYTimesViewHolder(v);
-                return viewHolder;
-
             default:
                 Log.d("ERROR", "Failed to pass OnCreateViewHolder");
                 break;
-
         }
-        return null;
+        return viewHolder;
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder viewHolder, int i) {
-
-        View view =null;
+    public void onBindViewHolder(RecyclerView.ViewHolder viewHolder, int i) {
 
         switch (i) {
             case 0:
@@ -88,24 +78,42 @@ public class RecyclerAdapter extends RecyclerView.Adapter<ViewHolder> {
                 googleViewHolder.googleTitleTextView.setText(titles[i]);
                 googleViewHolder.googleDetailTextView.setText(details[i]);
                 googleViewHolder.googleImageView.setImageResource(images[i]);
+
                 break;
             case 1:
-//                YoutubeViewHolder youtubeViewHolder = (YoutubeViewHolder) viewHolder;
-//                youtubeViewHolder.youtubeTitleTextView.setText(titles[i]);
-//                youtubeViewHolder.youtubeDetailTextView.setText(details[i]);
-//                youtubeViewHolder.youtubeImageView.setImageResource(images[i]);
+                YoutubeViewHolder youtubeViewHolder = (YoutubeViewHolder) viewHolder;
+                youtubeViewHolder.youtubeTitleTextView.setText(titles[i]);
+                youtubeViewHolder.youtubeDetailTextView.setText(details[i]);
+                youtubeViewHolder.youtubeImageView.setImageResource(images[i]);
                 break;
-            case 2:
-//                NYTimesViewHolder timesViewHolder = (NYTimesViewHolder) viewHolder;
-//                timesViewHolder.timesTitleTextView.setText(titles[i]);
-//                timesViewHolder.timesDetailTextView.setText(details[i]);
-//                picassoMethod((CardDemoActivity.BASE_URL), viewHolder.timesImageView.getContext(), viewHolder.timesImageView );
 
+            case 2:
+                NYTimesViewHolder timesViewHolder = (NYTimesViewHolder) viewHolder;
+                timesViewHolder.timesTitleTextView.setText(titles[i]);
+                timesViewHolder.timesDetailTextView.setText(details[i]);
+               picassoMethod((CardDemoActivity.BASE_URL),
+                        timesViewHolder.timesImageView.getContext(), timesViewHolder.timesImageView);
                 break;
             default:
                 break;
         }
     }
+    @Override
+    public int getItemViewType(int position) {
+        switch(position){
+            case 0:
+                return 0;
+            case 1:
+                return 1;
+            case 2:
+                return 2;
+            default:
+                break;
+
+        }
+        return -1;
+    }
+
 
     @Override
     public int getItemCount() {
@@ -119,4 +127,5 @@ public class RecyclerAdapter extends RecyclerView.Adapter<ViewHolder> {
                 .centerCrop()
                 .into(imageView);
     }
+
 }

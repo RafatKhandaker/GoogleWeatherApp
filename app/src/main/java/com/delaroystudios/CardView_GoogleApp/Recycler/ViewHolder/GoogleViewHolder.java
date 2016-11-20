@@ -2,15 +2,14 @@ package com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder;
 
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.delaroystudios.CardView_GoogleApp.R;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
-
 import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.launchFragmentActivity;
 import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.positionClicked;
 

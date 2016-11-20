@@ -76,7 +76,8 @@ public class CardDemoActivity extends YouTubeBaseActivity {
             }
         });
     }
-    //-----------------------------Handle Service----------------------------------------------------------------
+    //-----------------------------Handle Service---------------------------------------------------
+
      private Boolean serviceCallNYTimes(){
          return new Handler().postDelayed(new Runnable() {
              @Override

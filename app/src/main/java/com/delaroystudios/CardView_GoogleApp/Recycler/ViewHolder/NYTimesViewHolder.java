@@ -5,12 +5,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.delaroystudios.CardView_GoogleApp.R;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
-
 import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.launchFragmentActivity;
 import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.positionClicked;
 

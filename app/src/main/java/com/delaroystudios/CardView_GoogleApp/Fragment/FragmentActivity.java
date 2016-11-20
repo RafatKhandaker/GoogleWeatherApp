@@ -3,10 +3,8 @@ package com.delaroystudios.CardView_GoogleApp.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-
 import com.delaroystudios.CardView_GoogleApp.CardDemoActivity;
 import com.delaroystudios.CardView_GoogleApp.R;
-
 
 /**
  * Created by RedDragon on 11/8/16.
