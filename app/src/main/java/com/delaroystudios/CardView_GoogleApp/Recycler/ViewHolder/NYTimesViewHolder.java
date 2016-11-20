@@ -1,11 +1,17 @@
 package com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder;
 
+import android.content.Context;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTopStoriesPOJO;
 import com.delaroystudios.CardView_GoogleApp.R;
+import com.squareup.picasso.Picasso;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.launchFragmentActivity;
@@ -38,6 +44,22 @@ public class NYTimesViewHolder extends RecyclerView.ViewHolder {
                 launchFragmentActivity(v.getContext());
             }
         });
+    }
+
+    public void bind(NYTopStoriesPOJO TopStory){
+
+//        timesTitleTextView.setText(TopStory.getResults().get(0).getTitle());
+        String url = TopStory.getResults().get(1).getMultimedia().get(1).getUrl();
+        Log.d("TOP STORY URL:", url);
+        picassoMethod(url, timesImageView.getContext(), timesImageView);
+    }
+
+    private static void picassoMethod(String url, Context context, ImageView imageView) {
+        Picasso.with(context)
+                .load(url)
+                .resize(300, 300)
+                .centerCrop()
+                .into(imageView);
     }
 
 }

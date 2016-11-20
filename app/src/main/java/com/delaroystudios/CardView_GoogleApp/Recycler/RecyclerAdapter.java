@@ -4,20 +4,17 @@ package com.delaroystudios.CardView_GoogleApp.Recycler;
  * Rafat K
  */
 
-import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-
-import com.delaroystudios.CardView_GoogleApp.CardDemoActivity;
+import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTopStoriesPOJO;
 import com.delaroystudios.CardView_GoogleApp.R;
 import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder.GoogleViewHolder;
 import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder.NYTimesViewHolder;
 import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder.YoutubeViewHolder;
-import com.squareup.picasso.Picasso;
+import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.retroData;
 
 
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
@@ -82,22 +79,19 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
                 break;
             case 1:
                 YoutubeViewHolder youtubeViewHolder = (YoutubeViewHolder) viewHolder;
-                youtubeViewHolder.youtubeTitleTextView.setText(titles[i]);
-                youtubeViewHolder.youtubeDetailTextView.setText(details[i]);
-                youtubeViewHolder.youtubeImageView.setImageResource(images[i]);
+                youtubeViewHolder.bind();
                 break;
 
             case 2:
                 NYTimesViewHolder timesViewHolder = (NYTimesViewHolder) viewHolder;
-                timesViewHolder.timesTitleTextView.setText(titles[i]);
-                timesViewHolder.timesDetailTextView.setText(details[i]);
-               picassoMethod((CardDemoActivity.BASE_URL),
-                        timesViewHolder.timesImageView.getContext(), timesViewHolder.timesImageView);
+//                timesViewHolder.bind((NYTopStoriesPOJO) retroData.get(0));
+
                 break;
             default:
                 break;
         }
     }
+
     @Override
     public int getItemViewType(int position) {
         switch(position){
@@ -120,12 +114,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         return titles.length;
     }
 
-    private static void picassoMethod(String url, Context context, ImageView imageView) {
-        Picasso.with(context)
-                .load(url)
-                .resize(300, 300)
-                .centerCrop()
-                .into(imageView);
-    }
+
 
 }

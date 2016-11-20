@@ -8,12 +8,17 @@ import java.util.List;
  */
 
 public class NYTopStoriesPOJO {
+
+    String status;
+    String copyright;
     String section;
     String last_updated;
     int num_results;
     List<results> results = new ArrayList<>();
 
-
+    public String getStatus() {
+        return this.status;
+    }
 
     public List<results> getResults() {
         return this.results;
@@ -29,9 +34,9 @@ public class NYTopStoriesPOJO {
         String item_type;
         String updated_type;
         String created_date;
-        String published_date;
         String material_type_facet;
         String kicker;
+        String published_date;
         List<String> des_facet = new ArrayList<>();
         List<String> org_facet = new ArrayList<>();
         List<String> per_facet = new ArrayList<>();
@@ -77,6 +82,5 @@ public class NYTopStoriesPOJO {
                 return this.url;
             }
         }
-
     }
 }
