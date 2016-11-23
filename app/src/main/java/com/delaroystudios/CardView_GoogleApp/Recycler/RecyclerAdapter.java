@@ -16,16 +16,12 @@ import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder.GoogleViewHolde
 import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder.NYTimesViewHolder;
 import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder.YoutubeViewHolder;
 
-import java.util.List;
+import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.nyTimesData;
+
 
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
-    static final int GOOGLE_TYPE = 0, YOUTUBE_TYPE = 1, NY_TIMES_TYPE = 2;
-    List<Object> data;
-
-    public RecyclerAdapter(List<Object> data) {
-        this.data = data;
-    }
+    static final int GOOGLE_TYPE = 0, NY_TIMES_TYPE = 1, YOUTUBE_TYPE = 2 ;
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
@@ -59,40 +55,32 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
         final int itemType = getItemViewType(i);
 
-//        if (itemType == GOOGLE_TYPE){
-//            ((GoogleViewHolder) viewHolder).bind() data.get(i);
-//        }
+        if (itemType == GOOGLE_TYPE){
+            ((GoogleViewHolder) viewHolder).bind();
+        }
 
         if (itemType == NY_TIMES_TYPE) {
-            ((NYTimesViewHolder) viewHolder).bind(((NYTopStoriesPOJO.Results) data.get(2)));
-            //,(Multimedia) data.get(3)
+            ((NYTimesViewHolder) viewHolder).bind(((NYTopStoriesPOJO.Results) nyTimesData.get(0)));
         }
+
+        if (itemType == YOUTUBE_TYPE){
+            ((YoutubeViewHolder) viewHolder).bind();
+        }
+
     }
 
 
 
     @Override
     public int getItemViewType(int position) {
-        if (position == 0){
-            return GOOGLE_TYPE;
-        }
-        if (position == 1){
-            return YOUTUBE_TYPE;
-        }
-        if (data.get(position) instanceof NYTopStoriesPOJO.Results){
-            return NY_TIMES_TYPE;
-        }
+        switch(position){
+            case GOOGLE_TYPE: return GOOGLE_TYPE;
 
-//        switch(position){
-//            case 0:
-//                return 0;
-//            case 1:
-//                return 1;
-//            case 2:
-//                return 2;
-//            default:
-//                break;
-//        }
+            case NY_TIMES_TYPE: return NY_TIMES_TYPE;
+
+            case YOUTUBE_TYPE: return YOUTUBE_TYPE;
+
+        }
         return -1;
     }
 

@@ -66,13 +66,13 @@ public class YoutubeViewHolder extends RecyclerView.ViewHolder {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                youTubePlayerView.initialize(token.getYoutubeKey(), onInitializedListener);
+                youTubePlayerView.initialize(token.YOUTUBE_KEY, onInitializedListener);
             }
         });
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                youTubePlayerView.initialize(token.getYoutubeKey(), onInitializedListener);
+                youTubePlayerView.initialize(token.YOUTUBE_KEY, onInitializedListener);
             }
         });
     }

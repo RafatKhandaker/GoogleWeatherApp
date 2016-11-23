@@ -56,7 +56,7 @@ public class NYTimesViewHolder extends RecyclerView.ViewHolder {
     public void bind(NYTopStoriesPOJO.Results list){
         //, Multimedia list2
         timesTitleTextView.setText(list.getTitle());
-//        picassoMethod(list2.getUrl(), timesImageView.getContext(), timesImageView);
+        picassoMethod(list.getMultimedia().get(0).getUrl(), timesImageView.getContext(), timesImageView);
     }
 
     private static void picassoMethod(String url, Context context, ImageView imageView) {

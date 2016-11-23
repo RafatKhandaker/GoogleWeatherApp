@@ -12,6 +12,7 @@ import android.util.Log;
 import com.delaroystudios.CardView_GoogleApp.Fragment.FragmentActivity;
 import com.delaroystudios.CardView_GoogleApp.Network.NYTimesService;
 import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTimes.NYTopStoriesPOJO;
+import com.delaroystudios.CardView_GoogleApp.Network.token;
 import com.delaroystudios.CardView_GoogleApp.Recycler.RecyclerAdapter;
 import com.google.android.youtube.player.YouTubeBaseActivity;
 
@@ -24,8 +25,6 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-import static com.delaroystudios.CardView_GoogleApp.Network.token.BASE_URL;
-
 
 /**
  * Rafat Khandaker Maintaining Orthogonal standard of code
@@ -37,7 +36,7 @@ public class CardDemoActivity extends YouTubeBaseActivity {
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
     private RecyclerView.Adapter adapter;
-    List<Object> data = new ArrayList<>();
+    public static List<Object> nyTimesData = new ArrayList<>();
 
     //----------------------------------------------------------------------------------------------
 
@@ -49,9 +48,6 @@ public class CardDemoActivity extends YouTubeBaseActivity {
         getTopStoriesClient();
         initCollapsingToolbar();
 
-        data.add("place holder 1");
-        data.add("place holder 2");
-//        initiateRecyclerView();
 
     }
 
@@ -61,7 +57,7 @@ public class CardDemoActivity extends YouTubeBaseActivity {
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         layoutManager = new LinearLayoutManager(this);
-        adapter = new RecyclerAdapter(data);
+        adapter = new RecyclerAdapter();
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
 
@@ -110,7 +106,7 @@ public class CardDemoActivity extends YouTubeBaseActivity {
 
     public void getTopStoriesClient() {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(BASE_URL)
+                .baseUrl(token.NEW_YORK_TIMES_TOPSTORY_BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         NYTimesService nyTimesService = retrofit.create(NYTimesService.class);
@@ -124,12 +120,8 @@ public class CardDemoActivity extends YouTubeBaseActivity {
                     Log.d("call:get results", "On response pass check: " + response.body().getResults().get(0).getTitle());
                     Log.d("call:get media", "On response check" + response.body().getResults().get(0).getMultimedia().get(0).getUrl());
                     Log.d("call:get status", "on response check" + response.body().getStatus());
-
-                    //data = NYTTopStories.getResults();
-
                     List<NYTopStoriesPOJO.Results> results = NYTTopStories.getResults();
-//                    List<NYTopStoriesPOJO.Multimedia> Multimedia = NYTTopStories.getResults().getMultimedia();
-                        data.add(results.get(0));
+                        nyTimesData.add(results.get(0));
 //                        data.add(Multimedia.get(0));
 //                    for (int i =0; i<results.size(); i++) {
 //                        data.add(results.get(i));
