@@ -6,11 +6,14 @@ package com.delaroystudios.CardView_GoogleApp.Network;
 
 public class token {
 
-    private static String Google_Key = "";   // use your key here Shawn*
+    public static final String BASE_URL = "https://api.nytimes.com/svc/";
 
-    private static String NewYorkTimes_Key= "bbf0fecd74a24c42b50c9c6683575da7";
 
-    private static String Sports_Key = "";  // use your key here Josiel*
+    public static String Google_Key = "";   // use your key here Shawn*
+    public static String NewYorkTimes_Key= "bbf0fecd74a24c42b50c9c6683575da7";
+    public static final String YOUTUBE_KEY = "AIzaSyAo4GrP1Cs1Q9TwWxMfNMj9DFnXkWh-5ps";
+
+
 
 
     public static String getGoogle_Key(){
@@ -21,6 +24,6 @@ public class token {
         return NewYorkTimes_Key;
     }
 
-    public static String getSports_Key(){ return Sports_Key; }
+    public static String getYoutubeKey(){ return YOUTUBE_KEY; }
 
 }

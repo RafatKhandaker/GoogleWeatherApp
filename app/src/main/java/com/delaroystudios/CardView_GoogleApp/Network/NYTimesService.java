@@ -1,7 +1,7 @@
 package com.delaroystudios.CardView_GoogleApp.Network;
 
-import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTimesSearchPOJO;
-import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTopStoriesPOJO;
+import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTimes.NYTimesSearchPOJO;
+import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTimes.NYTopStoriesPOJO;
 import retrofit2.Call;
 import retrofit2.http.GET;
 
