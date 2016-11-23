@@ -24,10 +24,10 @@ public class FragmentActivity extends AppCompatActivity{
                 launchGoogleCalanderFragment();
                 break;
             case 2:
-                launchSportsFragment();
+                launchNewYorkTimesFragment();
                 break;
             case 3:
-                launchNewYorkTimesFragment();
+                launchSportsFragment();
                 break;
             default:
                 break;

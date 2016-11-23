@@ -11,9 +11,12 @@ import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTimes.NYTopStor
 import com.delaroystudios.CardView_GoogleApp.R;
 import com.squareup.picasso.Picasso;
 
+import java.util.Random;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.headerData;
 import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.launchFragmentActivity;
 import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.positionClicked;
 
@@ -26,6 +29,7 @@ public class NYTimesViewHolder extends RecyclerView.ViewHolder {
     @BindView(R.id.times_title_textview) public TextView timesTitleTextView;
     @BindView(R.id.times_imageview) public ImageView timesImageView;
     @BindView(R.id.times_detail_textview) public TextView timesDetailTextView;
+    @BindView(R.id.times_story_textview) public TextView timesStoryTextView;
 
 
     public NYTimesViewHolder(View itemView) {
@@ -54,15 +58,24 @@ public class NYTimesViewHolder extends RecyclerView.ViewHolder {
 //--------------------------------------------------------------------------------------------------
 
     public void bind(NYTopStoriesPOJO.Results list){
-        //, Multimedia list2
-        timesTitleTextView.setText(list.getTitle());
-        picassoMethod(list.getMultimedia().get(0).getUrl(), timesImageView.getContext(), timesImageView);
+        // will bind random image from times
+        NYTopStoriesPOJO timesPojo = new NYTopStoriesPOJO();
+
+        Random random = new Random();
+        int imageCount = random.nextInt(list.getMultimedia().size());
+
+
+        timesStoryTextView.setText(list.getTitle());
+
+        picassoMethod(list.getMultimedia().get(imageCount).getUrl(), timesImageView.getContext(), timesImageView);
+
+        timesDetailTextView.setText(headerData.get(0));
     }
 
     private static void picassoMethod(String url, Context context, ImageView imageView) {
         Picasso.with(context)
                 .load(url)
-                .resize(300, 300)
+                .resize(400, 400)
                 .centerCrop()
                 .into(imageView);
     }

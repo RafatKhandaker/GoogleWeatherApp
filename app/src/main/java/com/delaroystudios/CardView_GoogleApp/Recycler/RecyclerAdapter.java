@@ -69,8 +69,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
     }
 
-
-
     @Override
     public int getItemViewType(int position) {
         switch(position){
@@ -87,7 +85,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
     @Override
     public int getItemCount() {
-//        return data.size();
         return 3;
     }
 

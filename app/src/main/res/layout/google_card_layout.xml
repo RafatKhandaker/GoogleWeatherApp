@@ -26,29 +26,31 @@
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:id="@+id/google_title_textview"
-            android:textSize="30sp"
+            android:textSize="30dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
 
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:id="@+id/google_imageview"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@id/google_title_textview"
-            android:layout_marginRight="16dp"
-            />
 
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/google_imageview"
+            android:layout_below="@+id/google_title_textview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="213dp"
             android:layout_height="wrap_content"
             android:id="@+id/google_detail_textview"
             android:textColor="#FFFFFF"
-            android:layout_toRightOf="@+id/google_imageview"
-            android:layout_below="@id/google_imageview"
-            />
+            android:textSize="15dp"
+            android:text = "Add Detail to this Card"
+            android:layout_below="@+id/google_title_textview"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
 
 
     </RelativeLayout>

@@ -37,6 +37,8 @@ public class CardDemoActivity extends YouTubeBaseActivity {
     private RecyclerView.LayoutManager layoutManager;
     private RecyclerView.Adapter adapter;
     public static List<Object> nyTimesData = new ArrayList<>();
+    public static List<String> headerData = new ArrayList<>();
+
 
     //----------------------------------------------------------------------------------------------
 
@@ -119,15 +121,16 @@ public class CardDemoActivity extends YouTubeBaseActivity {
                     NYTopStoriesPOJO NYTTopStories = response.body();
                     Log.d("call:get results", "On response pass check: " + response.body().getResults().get(0).getTitle());
                     Log.d("call:get media", "On response check" + response.body().getResults().get(0).getMultimedia().get(0).getUrl());
-                    Log.d("call:get status", "on response check" + response.body().getStatus());
+                    Log.d("call:get last update", "on response check" + response.body().getLast_updated());
                     List<NYTopStoriesPOJO.Results> results = NYTTopStories.getResults();
-                        nyTimesData.add(results.get(0));
-//                        data.add(Multimedia.get(0));
-//                    for (int i =0; i<results.size(); i++) {
-//                        data.add(results.get(i));
-//                    }
+//
+                    for (int i =0; i<results.size(); i++) {
+                        nyTimesData.add(results.get(i));
+                        headerData.add(response.body().getLast_updated());
+                    }
+
                     initiateRecyclerView();
-                    //detailData = response.body().getResults().get(0).getTitle();
+
                 }
             }
 

@@ -16,6 +16,8 @@ public class NYTopStoriesPOJO {
     private int num_results;
     private  List<Results> results = new ArrayList<>();
 
+    public String getLast_updated(){return this.last_updated; }
+
     public String getStatus() {
         return this.status;
     }
