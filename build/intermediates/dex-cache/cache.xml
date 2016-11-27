@@ -133,7 +133,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="996e40688bf7d6d5b55b7e2c18e24332da876754">
+        sha1="76fb83b128714b05d286d03f91a66886cb39066b">
         <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_269185375eb78d50fd493912a2f4f8e75522dc12/classes.dex" />
     </item>
     <item
@@ -385,7 +385,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="110724f5cf0646e66a7d0975a716bef2640b1bdd">
+        sha1="56e96fb71bee21811257fe523239454a83576c9b">
         <dex dex="/Users/RedDragon/Desktop/localAppTest/oldPro/Sports-News-Schedule_App/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e9e7de3b970619b56764f1fd92cdb53399b6ed25/classes.dex" />
     </item>
     <item

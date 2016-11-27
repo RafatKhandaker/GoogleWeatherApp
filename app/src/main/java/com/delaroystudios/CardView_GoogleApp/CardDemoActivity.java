@@ -50,7 +50,6 @@ public class CardDemoActivity extends YouTubeBaseActivity {
         getTopStoriesClient();
         initCollapsingToolbar();
 
-
     }
 
     //---------------------------------Recycler View Method----------------------------------------
@@ -119,12 +118,9 @@ public class CardDemoActivity extends YouTubeBaseActivity {
             public void onResponse(Call<NYTopStoriesPOJO> call, Response<NYTopStoriesPOJO> response) {
                 if (response.isSuccessful()) {
                     NYTopStoriesPOJO NYTTopStories = response.body();
-                    Log.d("call:get results", "On response pass check: " + response.body().getResults().get(0).getTitle());
-                    Log.d("call:get media", "On response check" + response.body().getResults().get(0).getMultimedia().get(0).getUrl());
-                    Log.d("call:get last update", "on response check" + response.body().getLast_updated());
                     List<NYTopStoriesPOJO.Results> results = NYTTopStories.getResults();
-//
-                    for (int i =0; i<results.size(); i++) {
+
+                    for (int i = 0; i<results.size(); i++) {
                         nyTimesData.add(results.get(i));
                         headerData.add(response.body().getLast_updated());
                     }

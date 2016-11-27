@@ -9,6 +9,7 @@ import retrofit2.http.GET;
  * Created by RedDragon on 11/13/16.
  */
 
+
 public interface NYTimesService {
 
     // querry for search key use parameter q

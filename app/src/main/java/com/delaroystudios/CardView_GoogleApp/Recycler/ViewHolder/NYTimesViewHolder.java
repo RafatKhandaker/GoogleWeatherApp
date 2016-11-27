@@ -3,6 +3,7 @@ package com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder;
 import android.content.Context;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -58,16 +59,18 @@ public class NYTimesViewHolder extends RecyclerView.ViewHolder {
 //--------------------------------------------------------------------------------------------------
 
     public void bind(NYTopStoriesPOJO.Results list){
-        // will bind random image from times
-        NYTopStoriesPOJO timesPojo = new NYTopStoriesPOJO();
 
         Random random = new Random();
-        int imageCount = random.nextInt(list.getMultimedia().size());
-
+        int imageCount = list.getMultimedia().size();
 
         timesStoryTextView.setText(list.getTitle());
 
-        picassoMethod(list.getMultimedia().get(imageCount).getUrl(), timesImageView.getContext(), timesImageView);
+        if(imageCount > 0) {
+            int i = random.nextInt(list.getMultimedia().size());
+            picassoMethod(list.getMultimedia().get(i).getUrl(), timesImageView.getContext(), timesImageView);
+        }else{
+            timesImageView.setImageResource(R.drawable.news);
+        }
 
         timesDetailTextView.setText(headerData.get(0));
     }
