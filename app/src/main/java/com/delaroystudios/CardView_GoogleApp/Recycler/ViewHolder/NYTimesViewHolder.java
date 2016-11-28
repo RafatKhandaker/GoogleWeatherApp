@@ -1,9 +1,9 @@
 package com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder;
 
 import android.content.Context;
+import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -17,9 +17,9 @@ import java.util.Random;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.headerData;
-import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.launchFragmentActivity;
-import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.positionClicked;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.headerData;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.launchFragmentActivity;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.positionClicked;
 
 /**
  * Created by RedDragon on 11/19/16.
@@ -27,11 +27,11 @@ import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.positionCli
 
 public class NYTimesViewHolder extends RecyclerView.ViewHolder {
 
-    @BindView(R.id.times_title_textview) public TextView timesTitleTextView;
-    @BindView(R.id.times_imageview) public ImageView timesImageView;
-    @BindView(R.id.times_detail_textview) public TextView timesDetailTextView;
-    @BindView(R.id.times_story_textview) public TextView timesStoryTextView;
-
+    @Nullable @BindView(R.id.times_title_textview) public TextView timesTitleTextView;
+    @Nullable @BindView(R.id.times_imageview) public ImageView timesImageView;
+    @Nullable @BindView(R.id.times_detail_textview) public TextView timesDetailTextView;
+    @Nullable @BindView(R.id.times_story_textview) public TextView timesStoryTextView;
+    @Nullable @BindView(R.id.times_horizontal_recycler) public RecyclerView horizontalRecyclerView;
 
     public NYTimesViewHolder(View itemView) {
         super(itemView);
@@ -53,10 +53,7 @@ public class NYTimesViewHolder extends RecyclerView.ViewHolder {
         });
     }
 
-    //-------------------------------RETROFIT-------------------------------------------------------
-
-
-//--------------------------------------------------------------------------------------------------
+//-----------------------------------Bind Method ---------------------------------------------------
 
     public void bind(NYTopStoriesPOJO.Results list){
 
@@ -67,7 +64,8 @@ public class NYTimesViewHolder extends RecyclerView.ViewHolder {
 
         if(imageCount > 0) {
             int i = random.nextInt(list.getMultimedia().size());
-            picassoMethod(list.getMultimedia().get(i).getUrl(), timesImageView.getContext(), timesImageView);
+            picassoMethod(list.getMultimedia().get(i).getUrl(),
+                    timesImageView.getContext(), timesImageView);
         }else{
             timesImageView.setImageResource(R.drawable.news);
         }
@@ -83,5 +81,8 @@ public class NYTimesViewHolder extends RecyclerView.ViewHolder {
                 .into(imageView);
     }
 
+    public Context getContext(){
+        return horizontalRecyclerView.getContext();
+    }
 
 }

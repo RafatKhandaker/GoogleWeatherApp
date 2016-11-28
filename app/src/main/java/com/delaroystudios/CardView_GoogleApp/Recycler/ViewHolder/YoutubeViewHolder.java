@@ -48,6 +48,7 @@ public class YoutubeViewHolder extends RecyclerView.ViewHolder {
         playlist.add("RubBzkZzpUA");
         playlist.add("uxpDa-c-4Mc");
         playlist.add("7LnBvuzjpr4");
+
         youTubePlayerView = (YouTubePlayerView) view.findViewById(R.id.youtube_player);
         onInitializedListener = new YouTubePlayer.OnInitializedListener() {
             @Override

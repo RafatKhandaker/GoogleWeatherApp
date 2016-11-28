@@ -295,7 +295,7 @@ public class GoogleCalanderFragment extends Fragment {
 //            final int connectionStatusCode) {
 //        GoogleApiAvailability apiAvailability = GoogleApiAvailability.getInstance();
 //        Dialog dialog = apiAvailability.getErrorDialog(
-//                CardDemoActivity.this,
+//                MainActivity.this,
 //                connectionStatusCode,
 //                REQUEST_GOOGLE_PLAY_SERVICES);
 //        dialog.show();

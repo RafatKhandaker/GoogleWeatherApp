@@ -4,24 +4,26 @@ package com.delaroystudios.CardView_GoogleApp.Recycler;
  * Rafat K
  */
 
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.delaroystudios.CardView_GoogleApp.Network.ParseData.NYTimes.NYTopStoriesPOJO;
 import com.delaroystudios.CardView_GoogleApp.R;
+import com.delaroystudios.CardView_GoogleApp.Recycler.HorizontalScrollAdapter.NYTimesHorizontalAdapter;
 import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder.GoogleViewHolder;
 import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder.NYTimesViewHolder;
 import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder.YoutubeViewHolder;
 
-import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.nyTimesData;
+
 
 
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
-    static final int GOOGLE_TYPE = 0, NY_TIMES_TYPE = 1, YOUTUBE_TYPE = 2 ;
+
+    private static final int GOOGLE_TYPE = 0, NY_TIMES_TYPE = 1, YOUTUBE_TYPE = 2 ;
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
@@ -33,15 +35,15 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
                         .inflate(R.layout.google_card_layout, null);
                 return new GoogleViewHolder(googleView);
 
+            case NY_TIMES_TYPE:
+                View nyView = LayoutInflater.from(viewGroup.getContext())
+                        .inflate(R.layout.ny_times_recycler_viewholder, null);
+                return new NYTimesViewHolder(nyView);
+
             case YOUTUBE_TYPE:
                 View youtubeView = LayoutInflater.from(viewGroup.getContext())
                         .inflate(R.layout.youtube_card_layout, null);
                 return new YoutubeViewHolder(youtubeView);
-
-            case NY_TIMES_TYPE:
-                View nyView = LayoutInflater.from(viewGroup.getContext())
-                        .inflate(R.layout.ny_times_card_layout, null);
-                return new NYTimesViewHolder(nyView);
 
             default:
                 Log.d("ERROR", "Failed to pass OnCreateViewHolder");
@@ -60,7 +62,14 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         }
 
         if (itemType == NY_TIMES_TYPE) {
-            ((NYTimesViewHolder) viewHolder).bind(((NYTopStoriesPOJO.Results) nyTimesData.get(0)));
+
+            NYTimesHorizontalAdapter hAdapter = new NYTimesHorizontalAdapter();
+            ((NYTimesViewHolder) viewHolder).horizontalRecyclerView.setLayoutManager(
+                    new LinearLayoutManager(((NYTimesViewHolder) viewHolder).getContext(),
+                            LinearLayoutManager.HORIZONTAL, false));
+            ((NYTimesViewHolder) viewHolder).horizontalRecyclerView.setAdapter(hAdapter);
+            ((NYTimesViewHolder) viewHolder).horizontalRecyclerView.setNestedScrollingEnabled(false);
+            hAdapter.notifyDataSetChanged();
         }
 
         if (itemType == YOUTUBE_TYPE){
@@ -87,7 +96,5 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
     public int getItemCount() {
         return 3;
     }
-
-
 
 }

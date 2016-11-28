@@ -11,8 +11,8 @@ import com.delaroystudios.CardView_GoogleApp.R;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.launchFragmentActivity;
-import static com.delaroystudios.CardView_GoogleApp.CardDemoActivity.positionClicked;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.launchFragmentActivity;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.positionClicked;
 
 /**
  * Created by RedDragon on 11/19/16.
