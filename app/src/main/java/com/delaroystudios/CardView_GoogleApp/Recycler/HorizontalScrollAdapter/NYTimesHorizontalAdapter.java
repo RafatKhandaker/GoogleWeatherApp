@@ -33,6 +33,7 @@ public class NYTimesHorizontalAdapter extends RecyclerView.Adapter<RecyclerView.
 
         ((NYTimesViewHolder) viewHolder).bind(((NYTopStoriesPOJO.Results)
                 nyTimesData.get(position)));
+
     }
 
     @Override

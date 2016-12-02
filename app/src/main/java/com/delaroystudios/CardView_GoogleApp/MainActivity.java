@@ -38,17 +38,24 @@ public class MainActivity extends YouTubeBaseActivity {
     private RecyclerView.Adapter adapter;
     public static List<Object> nyTimesData = new ArrayList<>();
     public static List<String> headerData = new ArrayList<>();
-
+    public static List<String> uriData = new ArrayList<>();
 
 //--------------------------------------------------------------------------------------------------
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_activity_layout);
 
-        getTopStoriesClient();
+        setContentView(R.layout.main_activity_layout);
         initCollapsingToolbar();
+
+        Thread backGroundThread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                getTopStoriesClient();
+            }
+        });
+        backGroundThread.start();
 
     }
 
@@ -70,6 +77,7 @@ public class MainActivity extends YouTubeBaseActivity {
         Intent intent = new Intent(context, FragmentActivity.class);
         context.startActivity(intent);
     }
+
 //------------------------------------JOSIEL METHODS -----------------------------------------------
 
     private void initCollapsingToolbar() {
@@ -78,6 +86,7 @@ public class MainActivity extends YouTubeBaseActivity {
         collapsingToolbar.setTitle("Google Now");
         AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appbar);
         appBarLayout.setExpanded(true);
+
         // hiding & showing the title when toolbar expanded & collapsed
         appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
             boolean isShow = false;
@@ -119,11 +128,12 @@ public class MainActivity extends YouTubeBaseActivity {
             public void onResponse(Call<NYTopStoriesPOJO> call, Response<NYTopStoriesPOJO> response) {
                 if (response.isSuccessful()) {
                     NYTopStoriesPOJO NYTTopStories = response.body();
-                    List<NYTopStoriesPOJO.Results> results = NYTTopStories.getResults();
+                     List<NYTopStoriesPOJO.Results> results = NYTTopStories.getResults();
 
                     for (int i = 0; i<results.size(); i++) {
                         nyTimesData.add(results.get(i));
                         headerData.add(response.body().getLast_updated());
+                        uriData.add(response.body().getResults().get(i).getUrl());
                     }
 
                     initiateRecyclerView();

@@ -18,9 +18,8 @@ import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder.NYTimesViewHold
 import com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder.YoutubeViewHolder;
 
 
-
-
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+
 
 
     private static final int GOOGLE_TYPE = 0, NY_TIMES_TYPE = 1, YOUTUBE_TYPE = 2 ;
@@ -63,13 +62,15 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
         if (itemType == NY_TIMES_TYPE) {
 
-            NYTimesHorizontalAdapter hAdapter = new NYTimesHorizontalAdapter();
-            ((NYTimesViewHolder) viewHolder).horizontalRecyclerView.setLayoutManager(
+            NYTimesHorizontalAdapter timesHorizontalAdapter = new NYTimesHorizontalAdapter();
+            ((NYTimesViewHolder) viewHolder).timesHorizontalRecyclerView.setLayoutManager(
                     new LinearLayoutManager(((NYTimesViewHolder) viewHolder).getContext(),
                             LinearLayoutManager.HORIZONTAL, false));
-            ((NYTimesViewHolder) viewHolder).horizontalRecyclerView.setAdapter(hAdapter);
-            ((NYTimesViewHolder) viewHolder).horizontalRecyclerView.setNestedScrollingEnabled(false);
-            hAdapter.notifyDataSetChanged();
+            ((NYTimesViewHolder) viewHolder).timesHorizontalRecyclerView
+                    .setAdapter(timesHorizontalAdapter);
+            ((NYTimesViewHolder) viewHolder).timesHorizontalRecyclerView
+                    .setNestedScrollingEnabled(false);
+            timesHorizontalAdapter.notifyDataSetChanged();
         }
 
         if (itemType == YOUTUBE_TYPE){

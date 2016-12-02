@@ -20,7 +20,7 @@
         <com.google.android.youtube.player.YouTubePlayerView
             android:id="@+id/youtube_player"
             android:layout_width="match_parent"
-            android:layout_height="150dp" />
+            android:layout_height="200dp" />
         <Button
             android:id="@+id/play_button"
             android:layout_centerInParent="true"
@@ -28,7 +28,7 @@
             android:textColor="#FFFFFF"
             android:background="#FF0000"
             android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:layout_below="@+id/youtube_player"
             android:gravity="center" />
 

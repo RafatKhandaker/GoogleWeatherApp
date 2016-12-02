@@ -1,6 +1,8 @@
 package com.delaroystudios.CardView_GoogleApp.Recycler.ViewHolder;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.RecyclerView;
@@ -31,7 +33,9 @@ public class NYTimesViewHolder extends RecyclerView.ViewHolder {
     @Nullable @BindView(R.id.times_imageview) public ImageView timesImageView;
     @Nullable @BindView(R.id.times_detail_textview) public TextView timesDetailTextView;
     @Nullable @BindView(R.id.times_story_textview) public TextView timesStoryTextView;
-    @Nullable @BindView(R.id.times_horizontal_recycler) public RecyclerView horizontalRecyclerView;
+    @Nullable @BindView(R.id.times_horizontal_recycler) public RecyclerView timesHorizontalRecyclerView;
+
+    public static int horizontalPosition;
 
     public NYTimesViewHolder(View itemView) {
         super(itemView);
@@ -41,16 +45,26 @@ public class NYTimesViewHolder extends RecyclerView.ViewHolder {
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                positionClicked = getAdapterPosition()+1;
+                positionClicked = 2;
+                horizontalPosition = getAdapterPosition();
 
                 Snackbar.make(v, "Click detected on item " + positionClicked,
                         Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
 
                 // -------- LAUNCH FRAGMENT ACTIVITY ------------- //
+
                 launchFragmentActivity(v.getContext());
+//                launchTimesWebUrl(v.getContext());
             }
         });
+    }
+//----------------------------------Launch WEb Browser----------------------------------------------
+    private void launchTimesWebUrl(Context context){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW)
+                .setData(Uri.parse("http://www.google.com"));
+        context.startActivity(browserIntent);
+
     }
 
 //-----------------------------------Bind Method ---------------------------------------------------
@@ -82,7 +96,7 @@ public class NYTimesViewHolder extends RecyclerView.ViewHolder {
     }
 
     public Context getContext(){
-        return horizontalRecyclerView.getContext();
+        return timesHorizontalRecyclerView.getContext();
     }
 
 }

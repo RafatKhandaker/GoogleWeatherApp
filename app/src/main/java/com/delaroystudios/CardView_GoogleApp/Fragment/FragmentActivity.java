@@ -36,6 +36,8 @@ public class FragmentActivity extends AppCompatActivity{
     }
 
 
+
+
     private void launchNewYorkTimesFragment(){
         android.app.FragmentManager fragmentManager = getFragmentManager();
         android.app.FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();

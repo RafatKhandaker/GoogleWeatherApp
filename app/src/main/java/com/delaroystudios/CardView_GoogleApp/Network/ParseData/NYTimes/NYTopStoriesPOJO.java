@@ -28,30 +28,32 @@ public class NYTopStoriesPOJO {
 
 
     public class Results {
-        String section;
-        String subsection;
-        String title;
-        String _abstract;
-        String url;
-        String byline;
-        String item_type;
-        String updated_type;
-        String created_date;
-        String material_type_facet;
-        String kicker;
-        String published_date;
-        List<String> des_facet = new ArrayList<>();
-        List<String> org_facet = new ArrayList<>();
-        List<String> per_facet = new ArrayList<>();
-        List<String> geo_facet = new ArrayList<>();
+
+        private String section;
+        private String subsection;
+        private String title;
+        private String _abstract;
+        private String url;
+        private String byline;
+        private String item_type;
+        private String updated_type;
+        private String created_date;
+        private String material_type_facet;
+        private String kicker;
+        private String published_date;
+        private String short_url;
+        private List<String> des_facet = new ArrayList<>();
+        private List<String> org_facet = new ArrayList<>();
+        private List<String> per_facet = new ArrayList<>();
+        private List<String> geo_facet = new ArrayList<>();
         private List<Multimedia> multimedia = new ArrayList<>();
+
 
         public List<Multimedia> getMultimedia() {
             return multimedia;
         }
 
-
-        String short_url;
+        public String getUrl(){ return url; }
 
         public String getTitle() {
             return this.title;

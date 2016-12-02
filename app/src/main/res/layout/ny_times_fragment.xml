@@ -3,10 +3,15 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <EditText
         android:text="NEW YORK TIMES FRAGMENT"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txt_view_nytimes" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/times_web_view"/>
 
 </LinearLayout>
