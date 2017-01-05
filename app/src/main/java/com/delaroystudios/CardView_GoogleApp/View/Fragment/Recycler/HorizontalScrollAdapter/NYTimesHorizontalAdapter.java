@@ -9,7 +9,7 @@ import com.delaroystudios.CardView_GoogleApp.Model.Network.ParseData.NYTimes.NYT
 import com.delaroystudios.CardView_GoogleApp.R;
 import com.delaroystudios.CardView_GoogleApp.View.Fragment.Recycler.ViewHolder.NYTimesViewHolder;
 
-import static com.delaroystudios.CardView_GoogleApp.Presentation.MainActivity.nyTimesData;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.nyTimesData;
 
 
 /**

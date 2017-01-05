@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import com.delaroystudios.CardView_GoogleApp.R;
 import com.delaroystudios.CardView_GoogleApp.View.Fragment.Recycler.ViewHolder.WeatherViewHolder;
 
-import static com.delaroystudios.CardView_GoogleApp.Presentation.MainActivity.mainWeatherData;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.mainWeatherData;
 
 /**
  * Created by RedDragon on 12/2/16.

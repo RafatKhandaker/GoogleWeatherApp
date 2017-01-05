@@ -12,13 +12,13 @@ import com.delaroystudios.CardView_GoogleApp.R;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static com.delaroystudios.CardView_GoogleApp.Presentation.MainActivity.currentDateTimeString;
-import static com.delaroystudios.CardView_GoogleApp.Presentation.MainActivity.currentHumidityWeatherData;
-import static com.delaroystudios.CardView_GoogleApp.Presentation.MainActivity.currentTempWeatherData;
-import static com.delaroystudios.CardView_GoogleApp.Presentation.MainActivity.dateWeatherData;
-import static com.delaroystudios.CardView_GoogleApp.Presentation.MainActivity.mainWeatherData;
-import static com.delaroystudios.CardView_GoogleApp.Presentation.MainActivity.setIcon;
-import static com.delaroystudios.CardView_GoogleApp.Presentation.MainActivity.windSpeedWeatherData;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.currentDateTimeString;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.currentHumidityWeatherData;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.currentTempWeatherData;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.dateWeatherData;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.mainWeatherData;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.setIcon;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.windSpeedWeatherData;
 
 /**
  * Created by RedDragon on 11/19/16.

@@ -19,9 +19,9 @@ import java.util.Random;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static com.delaroystudios.CardView_GoogleApp.Presentation.MainActivity.headerData;
-import static com.delaroystudios.CardView_GoogleApp.Presentation.MainActivity.launchFragmentActivity;
-import static com.delaroystudios.CardView_GoogleApp.Presentation.MainActivity.positionClicked;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.headerData;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.launchFragmentActivity;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.positionClicked;
 
 /**
  * Created by RedDragon on 11/19/16.

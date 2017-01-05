@@ -1,8 +1,7 @@
-package com.delaroystudios.CardView_GoogleApp.Presentation;
+package com.delaroystudios.CardView_GoogleApp;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -15,14 +14,11 @@ import com.delaroystudios.CardView_GoogleApp.Model.Network.OpenWeatherService;
 import com.delaroystudios.CardView_GoogleApp.Model.Network.ParseData.NYTimes.NYTopStoriesPOJO;
 import com.delaroystudios.CardView_GoogleApp.Model.Network.ParseData.OpenWeather.OpenWeatherPOJO;
 import com.delaroystudios.CardView_GoogleApp.Model.Network.token;
-import com.delaroystudios.CardView_GoogleApp.R;
 import com.delaroystudios.CardView_GoogleApp.View.Fragment.FragmentActivity;
 import com.delaroystudios.CardView_GoogleApp.View.Fragment.Recycler.RecyclerAdapter;
 import com.google.android.youtube.player.YouTubeBaseActivity;
 
-import java.text.DateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
@@ -57,20 +53,13 @@ public class MainActivity extends YouTubeBaseActivity {
     public static List<Object> dateWeatherData = new ArrayList<>();
     public static HashMap<String, Integer> setIcon = new HashMap<>();
 
-    public static String currentDateTimeString;
+    public static String currentDateTimeString = "";
 
 //--------------------------------------------------------------------------------------------------
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        currentDateTimeString = "";
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            currentDateTimeString = android.icu.text.DateFormat
-                    .getDateTimeInstance().format(new Date());
-        }
 
         setContentView(R.layout.main_activity_layout);
         initCollapsingToolbar();
@@ -210,14 +199,6 @@ public class MainActivity extends YouTubeBaseActivity {
                             .getHumidity());
                     dateWeatherData.add(openWeather.getList().get(i).getDtTxt());
 
-                    Log.d("weather data main", " weather: " +mainWeatherData);
-
-                    Log.d("On Response", "temp: " +currentTempWeatherData.get(i));
-
-                    Log.d("On Response", "Wind: " +windSpeedWeatherData.get(i));
-
-                    Log.d("On Response", "date Text: " +dateWeatherData.get(i));
-
                     createIconSet();
                 }
 
@@ -231,9 +212,8 @@ public class MainActivity extends YouTubeBaseActivity {
     }
 
 //---------------------------------private method used in retrofit ---------------------------------
-    private void createIconSet(){
-        String currentDateTimeString = DateFormat.getDateTimeInstance().format(new Date());
 
+    private void createIconSet(){
         setIcon.put("Clear_Morning", R.drawable.clear_sky_sunny);
         setIcon.put("Clear_Night", R.drawable.clear_night);
         setIcon.put("Clear", R.drawable.clear_sky_sunny);

@@ -3,7 +3,7 @@ package com.delaroystudios.CardView_GoogleApp.View.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import com.delaroystudios.CardView_GoogleApp.Presentation.MainActivity;
+import com.delaroystudios.CardView_GoogleApp.MainActivity;
 import com.delaroystudios.CardView_GoogleApp.R;
 
 /**

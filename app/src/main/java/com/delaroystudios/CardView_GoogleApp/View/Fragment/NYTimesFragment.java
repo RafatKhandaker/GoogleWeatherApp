@@ -13,7 +13,7 @@ import com.delaroystudios.CardView_GoogleApp.R;
 
 import java.util.List;
 
-import static com.delaroystudios.CardView_GoogleApp.Presentation.MainActivity.uriData;
+import static com.delaroystudios.CardView_GoogleApp.MainActivity.uriData;
 import static com.delaroystudios.CardView_GoogleApp.View.Fragment.Recycler.ViewHolder.NYTimesViewHolder.horizontalPosition;
 
 /**
